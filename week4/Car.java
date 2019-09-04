@@ -9,9 +9,14 @@ public class Car
 
     public Car()
     {
-        model = "Mustang"
+        model = "Mustang";
         color = Color.YELLOW;
         numPassengers = 2;
-        amountOf Gas = 12.5;
+        amountOfGas = 12.5;
+    }
+
+    public String toString()
+    {
+        return "This is my Mustang";
     }
 }
