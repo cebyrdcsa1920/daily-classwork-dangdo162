@@ -5,6 +5,21 @@ public class Car
     private Color color;
     private int numPassengers;
     private double amountOfGas;
+    mpg = 15.0;
+}
+
+public void drive(double distance)
+    {
+        amountOfGas -= distance / mpg;
+    }
+
+    /**
+     * Gets the amount of gas in the tank
+     *
+     * @return amount of gas
+     */
+    public double getAmountOfGas()
+
 
 
     public Car()
@@ -14,6 +29,7 @@ public class Car
         numPassengers = 2;
         amountOfGas = 12.5;
     }
+
 
     public String toString()
     {
