@@ -19,7 +19,20 @@ public void drive(double distance)
      * @return amount of gas
      */
     public double getAmountOfGas()
+    {
+        return amountOfGas
+    }
 
+    /**
+     * Fills up the gas tank
+     *
+     * @param amount gas add to the tank
+     */
+
+     public void fillUpGasTank(double amount)
+     {
+         amountOfGas += amount;
+     }
 
 
     public Car()
